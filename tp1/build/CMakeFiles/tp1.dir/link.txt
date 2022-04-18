@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Werror -Wconversion   CMakeFiles/tp1.dir/src/tp1.cpp.o  -o tp1 libUtils.a 

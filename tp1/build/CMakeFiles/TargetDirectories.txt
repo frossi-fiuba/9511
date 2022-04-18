@@ -1,0 +1,4 @@
+/code/build/CMakeFiles/edit_cache.dir
+/code/build/CMakeFiles/rebuild_cache.dir
+/code/build/CMakeFiles/Utils.dir
+/code/build/CMakeFiles/tp1.dir
