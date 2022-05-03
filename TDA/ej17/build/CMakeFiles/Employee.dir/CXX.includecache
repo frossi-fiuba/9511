@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/employee.hpp
+iostream
+-
+cstddef
+-
+
+/code/src/employee.cpp
+employee.hpp
+/code/src/employee.hpp
+

@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Werror -Wconversion   CMakeFiles/ej17.dir/src/main.cpp.o  -o ej17 libEmployee.a libAdmin.a libBoss.a libDirector.a 

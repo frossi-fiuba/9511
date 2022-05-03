@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/boss.hpp
+employee.hpp
+-
+
+../include/employee.hpp
+iostream
+-
+cstddef
+-
+
+/code/src/boss.cpp
+boss.hpp
+/code/src/boss.hpp
+

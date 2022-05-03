@@ -1,0 +1,2 @@
+/usr/bin/ar qc libAdmin.a  CMakeFiles/Admin.dir/src/admin.cpp.o
+/usr/bin/ranlib libAdmin.a

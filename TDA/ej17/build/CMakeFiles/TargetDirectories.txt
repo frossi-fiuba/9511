@@ -1,0 +1,7 @@
+/code/build/CMakeFiles/rebuild_cache.dir
+/code/build/CMakeFiles/Admin.dir
+/code/build/CMakeFiles/Director.dir
+/code/build/CMakeFiles/Employee.dir
+/code/build/CMakeFiles/Boss.dir
+/code/build/CMakeFiles/ej17.dir
+/code/build/CMakeFiles/edit_cache.dir

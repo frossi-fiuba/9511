@@ -1,0 +1,23 @@
+version: "2.3"
+
+services:
+
+  # ROS service
+  compiler:
+    build:
+      dockerfile: ../docker/Dockerfile
+      context: .
+
+    image: algo2:compiler
+    runtime: nvidia
+
+    container_name: algo2
+    restart: on-failure
+
+    stdin_open: true
+    tty: true
+
+    volumes:
+      - ./:/code
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      - $HOME/.Xauthority:/root/.Xauthority

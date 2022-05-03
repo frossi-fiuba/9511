@@ -1,0 +1,2 @@
+/usr/bin/ar qc libBoss.a  CMakeFiles/Boss.dir/src/boss.cpp.o
+/usr/bin/ranlib libBoss.a
