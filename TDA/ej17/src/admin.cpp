@@ -2,5 +2,5 @@
 #include "admin.hpp"
 
 void Admin::incrementSalary() {
-    incrementarSalary(percentage_);
+    incrementSalary(percentage_);
 }

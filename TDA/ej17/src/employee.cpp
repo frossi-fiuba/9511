@@ -12,7 +12,7 @@ Employee::Employee(std::string name, std::string surname, size_t id, double sala
 
 // general methods
 
-void Employee::incrementarSalary(double percentage) {
+void Employee::incrementSalary(double percentage) {
     salary_ *= (1 + percentage / 100);
 }
 

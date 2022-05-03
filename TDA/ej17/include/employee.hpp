@@ -11,7 +11,7 @@ class Employee {
         double salary_;
         int yos_;
         // general methods
-        void incrementarSalary(double percentage);
+        void incrementSalary(double percentage);
     public:
         // constructors
         Employee();
